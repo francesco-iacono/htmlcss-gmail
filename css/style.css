@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+body {
+  background-image: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* logo */
+
+#logo {
+  height: 60px;
+  vertical-align: middle;
+}
+
+#logo-text {
+  display: inline-block;
+  color: white;
+  height: 83px;
+  line-height: 90px;
+  vertical-align: middle;
+}
+
+hr {
+  background-color: white;
+  margin: 20px 0px;
+}
+
+/* ricerca */
+
+#search {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#button {
+  width: 30px;
+}
+
+#circle {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* righe */
+#row {
+  font-size: 12px;
+}
+
+/* Email lette */
+.read {
+  background-color: lightgray;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+/* email non lette */
+.unread {
+  background-color: white;
+  padding: 2px;
+  border: 1px solid black;
+
+}
+
+/* riga singola - lato destro e sinistro */
+.rowleft {
+  display: inline-block;
+  color: black;
+  font-weight: bolder;
+}
+
+.rowright {
+  display: inline-block;
+  color: gray;
+}
+
+#star {
+  color: orange;
+}
+
+/* fondo pagina */
+footer {
+  text-align: center;
+}
+
+#gmail {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+#by {
+  font-style: italic;
+}
